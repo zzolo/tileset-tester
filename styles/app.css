@@ -1,0 +1,59 @@
+
+::-webkit-input-placeholder {
+   color: #E1E1E1;
+}
+:-moz-placeholder { /* Firefox 18- */
+   color: #E1E1E1;
+}
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #E1E1E1;
+}
+:-ms-input-placeholder {
+   color: #E1E1E1;
+}
+
+.container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: yellow;
+  z-index: 1;
+}
+
+.input-box {
+  position: absolute;
+  width: 50%;
+  right: 10px;
+  top: 10px;
+  color: white;
+  font-size: 2em;
+  z-index: 10;
+  text-align: right;
+}
+
+.input-box .tileset-pattern {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: .25em .5em;
+  margin-bottom: .5em;
+}
+
+.input-box .tms-xyz {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: .25em .5em;
+  display: inline-block;
+  cursor: pointer;
+}
